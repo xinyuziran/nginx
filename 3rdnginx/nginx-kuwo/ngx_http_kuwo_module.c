@@ -39,7 +39,7 @@ typedef struct {
     ngx_http_regex_t     *urlregex;
 } ngx_http_kuwo_loc_conf_t;
 
-static ngx_str_t  ngx_kuwo_signature = ngx_string("kuwo_web@1906");
+static ngx_str_t  ngx_kuwo_signature = ngx_string("@kuwo_web@19060");
 static ngx_str_t  ngx_kuwo_url = ngx_string("^.*/(.{32})/(.{8})/resource(.*)");
 static ngx_str_t  ngx_kuwo_host = ngx_string("^.*sycdn\\.kuwo\\.cn");
 
